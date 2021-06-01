@@ -1,0 +1,201 @@
+﻿@charset "utf-8";
+
+body {
+    font: 14px/20px "Arial","Microsoft YaHei";
+    color: #333;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.content {
+    background-color: #3c8dbd;
+    height: 50px;
+    position: relative;
+}
+
+.top {
+    height: 50px;
+    width: 342px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+    .top ul {
+        line-height: 36px;
+        padding: 6px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+        .top ul li {
+            text-align: center;
+            float: left;
+            width: 60px;
+        }
+
+            .top ul li a {
+                color: #91cdf0;
+            }
+
+                .top ul li a:hover {
+                    color: #fff;
+                }
+
+            .top ul li.active a {
+                color: #fff;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+                border-bottom-color: #3c8dbd;
+            }
+
+    .top span {
+        cursor: pointer;
+        position: absolute;
+        top: 7px;
+        background: url('../img/nav_wev8.png') center no-repeat #367ea9;
+        right: 0px;
+        width: 40px;
+        height: 35px;
+    }
+
+    .top i {
+        cursor: pointer;
+        position: relative;
+        left: 347px;
+        top: 7px;
+        text-align: center;
+        font-style: normal;
+        background: #367ea9;
+        width: 40px;
+        height: 35px;
+        line-height: 35px;
+        color: #91cdf0;
+        overflow: hidden;
+    }
+
+.sousuo {
+    width: 210px;
+    float: left;
+    height: 35px;
+    position: relative;
+    margin-left: 20px;
+}
+
+    .sousuo label {
+        position: absolute;
+        right: 0;
+        top: 7px;
+    }
+
+        .sousuo label input {
+            border: none;
+            width: 172px;
+            height: 35px;
+            font-weight: normal;
+            float: left;
+            outline: none;
+            font-size: 14px;
+            color: #fff;
+            padding-left: 8px;
+            background: #367ea9;
+            color: #fff;
+        }
+
+            .sousuo label input::-webkit-input-placeholder {
+                color: #fff;
+            }
+
+        .sousuo label a {
+            background: url('../img/search_wev8.png') no-repeat center #34769f;
+            width: 30px;
+            height: 35px;
+            float: left;
+        }
+
+.now {
+    overflow: visible;
+}
+
+    .now ul, .now span {
+        background-color: #222d32;
+    }
+
+.icon-close {
+    width: 45px;
+    height: 50px;
+    background: url('../img/logout.png') center no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+    .icon-close:hover {
+        background-color: #367fa9;
+    }
+
+.used {
+    position: relative;
+    float: left;
+    text-align: center;
+    height: 43px;
+    margin: 7px 0px 0px 6px;
+}
+
+    .used span {
+        display: block;
+        cursor: pointer;
+        background: #367ea9;
+        width: 40px;
+        line-height: 35px;
+        color: #91cdf0;
+    }
+
+.homenav {
+    cursor: pointer;
+    position: absolute;
+    height: 43px;
+    margin: 0px;
+    left: 390px;
+    top: 42px;
+    text-align: left;
+}
+
+    .homenav ul {
+        background: #222d32;
+        width: 110px;
+        padding: 6px 0px;
+        top: 0px;
+    }
+
+        .homenav ul a {
+            color: #cfcfcf;
+            display: block;
+            line-height: 28px;
+            padding-left: 20px;
+        }
+
+            .homenav ul a:hover {
+                border-left-width: 3px;
+                border-left-style: solid;
+                border-left-color: #3c8dbd;
+            }
+
+.xiala {
+    overflow: visible;
+}
+
+    .xiala ul, .xiala span {
+        background-color: #222d32;
+        color: #FFFFFF;
+    }
+
+/*JT Edit 2017-11-24*/
+.hidenav {
+    display: none
+}
+/*JT Edit 2017-11-24*/

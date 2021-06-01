@@ -1,0 +1,53 @@
+﻿body {
+}
+.postPanel {
+    float: left;
+    height: 99%;
+}
+.panel-body{
+    padding:5px;
+}
+#postFrame {
+    width: 42%;
+}
+#postDetail {
+    width: 58%;
+}
+.treeview .glyphicon-stop:before {
+    content: "";
+}
+.postFormDiv {
+    width: 90%;
+    margin: 0px auto;
+}
+#treeviewPost .list-group {
+    margin-top: 10px;
+}
+#treeviewPost {
+    width: 100%;
+    overflow-y: auto;
+}
+    #treeviewPost .treeButton {
+        padding: 1px 2px;
+        float: right;
+    }
+.form-line {
+    height: 50px;
+}
+#treeviewDepartmentDiv {
+    margin-bottom: 0px;
+    display: none;
+    height: 0px;
+}
+.treeview li {
+    font-size: 14px;
+    color: #666;
+    font-family: '微软雅黑';
+}
+.form-group label {
+    font-size: 14px;
+    color: #666;
+}
+.form-control[readonly] {
+    background-color: #fff;
+}

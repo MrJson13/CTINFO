@@ -1,0 +1,188 @@
+﻿.navigation {
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #3c8dbc;
+}
+
+    .navigation span {
+        float: left;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: solid 1px #dbdbdb;
+        margin-right: 10px;
+    }
+
+        .navigation span.active {
+            background: #3c8dbc;
+            color: #fff;
+            border: solid 1px #3c8dbc;
+        }
+
+#usermenuul li {
+    /*background-color: #fafafa;*/
+    border: 1px solid #eee;
+    font: bold 14px #333;
+}
+
+.Wdate {
+    cursor: pointer;
+}
+.form-control[readonly] {
+    background: #fff;
+}
+input[type=text] {
+    height: 34px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    font: 300 14px #666;
+}
+
+#PostlistTips input {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    vertical-align: middle;
+    line-height: 22px;
+    margin: 0px;
+    Height: 34px;
+    Width: auto;
+    border-radius: 4px;
+    background-color: #999;
+}
+
+input[type=button] {
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    vertical-align: middle;
+    line-height: 22px;
+    margin: 0px;
+    Height: 34px;
+    Width: 48px;
+    background-color: #2da867;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select {
+    width: 48px;
+    height: 34px;
+    background-color: #2da867;
+    font: 14px #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.fileinputbtnclass {
+    width: 80px;
+    height: 34px;
+    background-color: #2da867;
+    font: 14px #fff;
+    border-radius: 4px;
+}
+
+
+.succeed {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+    .succeed img {
+        width: 100%;
+        height: 100%;
+        position: absolute
+    }
+
+.bg {
+    background: url(/img/upload.png) no-repeat center;
+    width: 100%;
+    min-height: 240px;
+    display: block;
+    position: relative;
+    border: 1px solid #ddd;
+    cursor: pointer
+}
+
+#IdCardUrlF {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}
+
+#IdCardUrlZ {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}
+
+/*#CertificateUrlFile {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}*/
+#file-zh {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}
+
+#SealUrlFile {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}
+
+/*#PayDocuUrlFile {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}*/
+#AppointUrlFile {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}
+/*#ContactAnnexFile {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    cursor: pointer
+}*/

@@ -1,0 +1,34 @@
+﻿body, html {
+    padding: 0px;
+    height: 100%;
+    font: 14px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+    /*overflow: hidden;*/
+}
+#div-content {
+    background-color: white;
+}
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 230px)
+}
+#menu .second-menu {
+    font-size: 14px;
+    background-color: #2b3958;
+    border-bottom: solid 1px #1b2737;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    color: #fff;
+    background: #367fa8;
+    border-left-color: #3c8dbc;
+}
+.second-menu .treeview-menu {
+    color: #fff;
+}
+.main-sidebar .sidebar {
+    background-color: #1b2737;
+}
+  .main-sidebar .sidebar-form {
+      background-color: #1b2737;
+  }
+.btn-xs{font-size:14px;}

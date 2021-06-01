@@ -1,0 +1,174 @@
+异常时间:2021/2/1 9:18:24
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:过程或函数 'ProjectInfoes_SelectByID' 需要参数 '@Id'，但未提供该参数。
+
+异常时间:2021/2/1 9:19:23
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从数据类型 nvarchar 转换为 int 时出错。
+
+异常时间:2021/2/1 14:07:19
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:23
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:24
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:24
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:27
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:28
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:28
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:28
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:29
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:29
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:29
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:30
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:30
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:31
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:31
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:31
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:07:33
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:08:57
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:08:58
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:00
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:01
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:02
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:02
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:04
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:05
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:26
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:27
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:27
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:27
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:27
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:09:28
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:12:31
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。
+
+异常时间:2021/2/1 14:16:13
+异常方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+异常编码:-2146232060
+异常消息:从字符串转换日期和/或时间时，转换失败。

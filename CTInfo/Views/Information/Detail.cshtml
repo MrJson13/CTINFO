@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "信息详情";
+    var GrabInfo = ViewBag.GrabInfo;
+}
+
+<div class="panel-body " style="overflow:scroll; width:100%;overflow:auto;">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            信息详情
+        </div>
+        <div class="panel-body">
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="rowGroup">
+                            <label class="col-sm-1 control-label">项目及标段名称:</label>
+                            <div class="col-sm-7 pd7">
+                                @GrabInfo.ProName
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="rowGroup">
+                            <label class="col-sm-1 control-label">中标候选人名称:</label>
+                            <div class="col-sm-7 pd7">
+                                @GrabInfo.WinCompany
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="rowGroup">
+                            <label class="col-sm-1 control-label">投标报价:</label>
+                            <div class="col-sm-7 pd7">
+                                @Html.Raw(@GrabInfo.ProPrice == null ? "" : @GrabInfo.ProPrice.Replace("\n", "<br />"))
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="history.go(-1);" class="btn btn-default">返回</button>
+            </div>
+        </div>
+    </div>
+</div>

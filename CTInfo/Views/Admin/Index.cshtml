@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "管理员";
+}
+<div class="panel-body">
+    <div class="panel panel-default" hidden>
+        <div class="panel-heading">查询条件</div>
+        <div class="panel-body">
+            <form id="formSearch" class="form-horizontal">
+                <div class="form-group" style="margin-top:15px">
+                    <label class="control-label col-sm-1" for="txtSearchAdminName">姓名</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="txtSearchAdminName">
+                    </div>
+                    <div class="col-sm-4" style="text-align:left;">
+                        <button type="button" style="margin-left:50px" id="btnQuery" class="btn btn-primary">查询</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="toolbar" class="btn-group" style="display:none;">
+        <button id="btnLoadInsertPage" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+        </button>
+    </div>
+    <table id="tb_admin"></table>
+
+</div>
+<!--管理员模态框容器-->
+<div id="adminModalContainer">
+</div>
+<!-- /.content -->
+@section scripts{
+    <script src="~/Scripts/business/admins.js?v=19"></script>
+}
+
+

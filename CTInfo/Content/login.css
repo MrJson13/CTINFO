@@ -1,0 +1,16 @@
+﻿.login-panel {
+    margin-top: 50%;
+}
+
+#divMSG {
+    display: none;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.panel-title {
+    text-align: center;
+    font-weight: 700;
+}

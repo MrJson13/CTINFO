@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "信息查询";
+}
+<div class="panel-body">
+    <div class="panel panel-default">
+        <div class="panel-heading">查询条件</div>
+        <div class="panel-body">
+            <form id="formSearch" class="form-horizontal">
+                <div class="form-group" >
+                    <label class="control-label col-sm-2" for="txtName">项目及标段名称</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="txtName">
+                    </div>
+                    <div class="col-sm-4" style="text-align:left;">
+                        <button type="button" style="margin-left:20px" id="btnQuery" class="btn btn-primary">查询</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table id="tb_information"></table>
+
+</div>
+<!-- /.content -->
+@section scripts{
+    <script src="~/Scripts/business/information.js?v=19"></script>
+}
+
+

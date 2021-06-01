@@ -1,0 +1,7 @@
+E:\workplace\CTInfo\Model\bin\Debug\Model.dll
+E:\workplace\CTInfo\Model\bin\Debug\Model.pdb
+E:\workplace\CTInfo\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\workplace\CTInfo\Model\obj\Debug\Model.csproj.CopyComplete
+E:\workplace\CTInfo\Model\obj\Debug\Model.dll
+E:\workplace\CTInfo\Model\obj\Debug\Model.pdb
+E:\workplace\CTInfo\Model\obj\Debug\Model.csprojAssemblyReference.cache

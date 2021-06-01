@@ -1,0 +1,101 @@
+﻿@{ Layout = null;}
+@{ ViewBag.Title = "城投信息查询系统";
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/PlugIns/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/login.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery/jquery-1.12.0.min.js"></script>
+
+    <script type="text/javascript">
+        var rootPath = "@Url.Content("~/")";
+        //绑定回车登录事件
+        document.onkeydown = function (e) {
+            if (!e) {
+                e = window.event;
+            }
+            if ((e.keyCode || e.which) == 13) {
+                CheckLogin();
+            }
+        }
+        function CheckLogin() {
+            var dlm = $("#txtLoginUser").val();
+            if (dlm == '' || dlm == null) {
+                alert("请输入用户名");
+                return;
+            }
+            var password = $('#txtLoginPSW').val();
+            if (password == '' || password == null) {
+                alert("请输入账号密码");
+                return;
+            }
+            var data = $('#loginForm').serialize();
+            //序列化获得表单数据，结果为：user_id=12&user_name=John&user_age=20
+
+            $('#divMSG').html('登录中。。。');
+            $('#divMSG').css('display', 'block');
+            var submitData = decodeURIComponent(data, true);
+            $.ajax({
+                type: "post",
+                dataType: "html",
+                url: rootPath + 'Home/LoginResult',
+                data: submitData,
+                cache: true,
+                success: function (data) {
+                    var result = $.parseJSON(data);
+                    $('#divMSG').html(result.message);
+                    if (result.success) {
+                        window.location.href = rootPath + "Information/Index";
+                    }
+                },
+                error: function () {
+                    $('#divMSG').html('登录失败，请联系管理员');
+                }
+            });
+        }
+        $(function () {
+            @*alert("@dlm");*@
+            $("#btnLogin").click(function () {
+                CheckLogin();
+            });
+        })
+    </script>
+</head>
+<body style="background-image:url(../../img/bg.jpg);background-repeat:no-repeat; background-size:100% 100%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">城投信息查询系统</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form id="loginForm">
+                            <fieldset>
+                                <div class="form-group">
+                                    登录名:<input type="text" id="txtLoginUser" name="AdminID" value="@ViewBag.Name" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    密码:<input type="password" id="txtLoginPSW" name="AdminPSW" value="@ViewBag.Psw" class="form-control" />
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" id="ckbLoginType" name="Remember" checked="checked" />记住我
+                                    </label>
+                                </div>
+                                <input type="button" id="btnLogin" class="btn btn-lg btn-primary btn-block" value="登录" />
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div align="center" style="font-size:13px;color:red;font-family:YouYuan;margin-top:20px;">建议使用谷歌浏览器</div>
+                <div class="alert alert-danger" id="divMSG"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
